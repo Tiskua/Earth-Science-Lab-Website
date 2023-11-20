@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth Science Lab</title>
+    <link href="/styles.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <div class="header">
+        <h1>Geology | Relative Dating | Lab 1</h1>
+        <div class="title">Directions:</div>
+        <p>
+            Determine the relative sequence of events in the diagram below.
+            Use the dropdown menus to select from oldest to the youngest event. 
+            Once you are have answered all of the question, click the 'Submit Answers' button.
+            Once you click submit, it will tell you which ones you got right and which ones you got wrong. 
+            Once you get all the questions right you can move on to the next lab.
+        </p>
+    </div>
+    <div class="main-container">
+        <div class="image-container">
+            <img src="images/ratlive_dating_1.jpg">
+        </div>
+        <div class="answers-container">
+            <div class="question_label">Oldest</div>
+            <div data-answer="A" class="dropdown">
+                <div class="select">
+                    <span class="selected">Select an Answer</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li>A</li>
+                    <li>B</li>
+                    <li>C</li>
+                    <li>D</li>
+
+                </ul>
+            </div>
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Select an Answer</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li>A</li>
+                    <li>B</li>
+                    <li>C</li>
+                    <li>D</li>
+
+                </ul>
+            </div>
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Select an Answer</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li>A</li>
+                    <li>B</li>
+                    <li>C</li>
+                    <li>D</li>
+
+                </ul>
+            </div>
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Select an Answer</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li>A</li>
+                    <li>B</li>
+                    <li>C</li>
+                    <li>D</li>
+
+                </ul>
+            </div>
+            <div class="question_label">Youngest</div>
+            <div class="actions">
+                <button class="btn" onclick="checkAnswers(1)">Submit Answers</button>
+                <button class="btn" onclick="resetAnswers()">Reset Answers</button>
+            </div>
+        </div>
+    </div>
+    <button id="next-lab-btn" class="disabled"><a href="lab2.html">Next Lab</a></button>
+    <script src="scripts.js" defer></script>
+</body>
+</html>
