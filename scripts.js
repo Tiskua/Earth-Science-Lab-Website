@@ -100,8 +100,8 @@ const lab_5_answers = [
     "E",
     "D",
     "G",
-    "H",
-    "I (Erosiom)",
+    "H (Fault)",
+    "I (Erosion)",
     "C",
     "B",
     "A",
@@ -138,7 +138,10 @@ function checkAnswers(lab) {
         if (lab == 2) passedLab2 = true;
         if (lab == 3) passedLab3 = true;
         if (lab == 4) passedLab4 = true;
-        if (lab == 5) passedLab5 = true;
+        if (lab == 5) { 
+            alert("Congratulations! You have successfully completed all 5 of the labs with a perfect score!")
+            passedLab5 = true
+         };
         console.log("passed !")
         nextLabButton.classList.remove("disabled");
     } else {
